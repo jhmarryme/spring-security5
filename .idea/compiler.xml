@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dev-common" />
+        <module name="spring-security5-demo" />
+        <module name="dev-mapper" />
+        <module name="spring-security5-core" />
+        <module name="dev-pojo" />
+        <module name="spring-security5-browser" />
+        <module name="dev-manager" />
+        <module name="dev-service" />
+        <module name="dev-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dev-api" target="1.8" />
+      <module name="dev-common" target="1.8" />
+      <module name="dev-manager" target="1.8" />
+      <module name="dev-mapper" target="1.8" />
+      <module name="dev-pojo" target="1.8" />
+      <module name="dev-service" target="1.8" />
+      <module name="spring-security5" target="1.8" />
+      <module name="spring-security5-app" target="1.8" />
+      <module name="spring-security5-browser" target="1.8" />
+      <module name="spring-security5-core" target="1.8" />
+      <module name="spring-security5-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dev-api" options="-parameters" />
+      <module name="dev-common" options="-parameters" />
+      <module name="dev-manager" options="-parameters" />
+      <module name="dev-mapper" options="-parameters" />
+      <module name="dev-pojo" options="-parameters" />
+      <module name="dev-service" options="-parameters" />
+      <module name="spring-security5-app" options="-parameters" />
+      <module name="spring-security5-browser" options="-parameters" />
+      <module name="spring-security5-core" options="-parameters" />
+      <module name="spring-security5-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

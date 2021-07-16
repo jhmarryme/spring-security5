@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dev-api/dev-api.iml" filepath="$PROJECT_DIR$/dev-api/dev-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev-common/dev-common.iml" filepath="$PROJECT_DIR$/dev-common/dev-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev-manager/dev-manager.iml" filepath="$PROJECT_DIR$/dev-manager/dev-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev-mapper/dev-mapper.iml" filepath="$PROJECT_DIR$/dev-mapper/dev-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev-pojo/dev-pojo.iml" filepath="$PROJECT_DIR$/dev-pojo/dev-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev-service/dev-service.iml" filepath="$PROJECT_DIR$/dev-service/dev-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security5.iml" filepath="$PROJECT_DIR$/spring-security5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security5-browser/spring-security5-browser.iml" filepath="$PROJECT_DIR$/spring-security5-browser/spring-security5-browser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security5-core/spring-security5-core.iml" filepath="$PROJECT_DIR$/spring-security5-core/spring-security5-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security5-demo/spring-security5-demo.iml" filepath="$PROJECT_DIR$/spring-security5-demo/spring-security5-demo.iml" />
+    </modules>
+  </component>
+</project>

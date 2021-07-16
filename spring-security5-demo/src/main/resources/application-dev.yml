@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    password:
+    url: jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=)(PORT=))(CONNECT_DATA=(SERVICE_NAME=)))
+    username:
+  #    暂时关闭session配置m
+  session:
+    store-type: redis
+  redis:
+    host: 1.14.140.53
+    port: 6379
+    password: jh541224
+    database: 0
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启SQL语句打印
+swagger:
+  enable: true
